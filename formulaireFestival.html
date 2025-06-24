@@ -1,0 +1,40 @@
+<?php
+
+$corps =<<<EOT
+  <form method="post" action="index.php?action={$cible}&id={$id}" name="form_user" >
+
+  <label><b>Nom : </b></label>
+  <input type="text" name="nom" size="" value="{$nom}">
+  <span class="w3-text-red">{$erreur["nom"]}</span><br>
+
+  <label><b>Style : </b></label>
+  <input type="text" name="style" size="" value="{$style}">
+  <span class="w3-text-red">{$erreur["style"]}</span><br>
+
+  <label><b>Capacite : </b></label>
+  <input type="text" name="capacite" size="" value="{$capacite}">
+  <span class="w3-text-red">{$erreur["capacite"]}</span><br>
+
+  <label><b>Date depart : </b></label>
+  <input type="text" name="dateDepart" size="" value="{$dateDepart}">
+  <span class="w3-text-red">{$erreur["dateDepart"]}</span><br>
+
+  <label><b>Date fin : </b></label>
+  <input type="text" name="dateFin" size="" value="{$dateFin}">
+  <span class="w3-text-red">{$erreur["dateFin"]}</span><br>
+
+  <label><b>Adresse billeterie : </b></label>
+  <input type="text" name="adresseBilleterie" size="" value="{$adresseBilleterie}">
+  <span class="w3-text-red">{$erreur["adresseBilleterie"]}</span><br>
+
+  <label><b>Adresse lieu : </b></label>
+  <input type="text" name="adresseLieu" size="" value="{$adresseLieu}">
+  <span class="w3-text-red">{$erreur["adresseLieu"]}</span><br>
+
+  <input type="submit" name="user_valider" value="Valider" size="" >
+
+</form>
+
+EOT;
+$zonePrincipale=$corps ;
+?>

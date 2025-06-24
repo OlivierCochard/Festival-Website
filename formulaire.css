@@ -1,0 +1,95 @@
+body {
+  margin-left: 150px;
+  margin-right: 100px;
+  font-family: arial, helvetica;
+  font-size: 9pt;
+
+}
+h1 {
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: gray;
+  color: orange;
+}
+p {
+  color: black;
+  margin-top: -10px;
+}
+
+img {
+  width: 10px;
+}
+
+form input {
+  background-color: white;
+}
+form input:hover {
+  background-color: orange;
+}
+
+table {
+  border: 1px solid black;
+  background-color: gray;
+}
+td {
+  border: 1px solid black;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 10pt;
+  padding: 5px;
+}
+
+
+a {
+  color: silver;
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.c1 {
+  display:inline-block;
+	width:80px;
+}
+.c2 {
+  display:inline-block;
+	width:15px;
+}
+
+.btn {
+  background-color: white;
+  padding: 4px;
+  width: 100px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 10pt;
+  color: black;
+  border: 1px solid gray;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: orange;
+  padding: 4px;
+  width: 100px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 10pt;
+  color: black;
+  border: 1px solid gray;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+td.titre {
+  font-weight: bold;
+  color: dimgray;
+}
+.tdM {
+  width: 75%;
+  background-color: silver;
+}
+.tabM {
+  width: 100%;
+  background-color: gray;
+}
